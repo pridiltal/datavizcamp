@@ -8,7 +8,7 @@ enableEmoji: yes
 publishDir: docs
 params:
   author:
-    description: Creator of this blog.
+    description: Data Visualization Camp
     name: 
     thumbnail: /images/author.png
   description:  Workshop Camp

@@ -2,6 +2,9 @@
 date: "2018-10-07T11:12:00+02:00"
 title: Code of Conduct
 ---
+
+![](/images/codeofcoduct.png)
+
 This workshop series is dedicated to providing a harassment-free experience for everyone.
 
 This code of conduct applies to all the spaces, including online workshops, Twitter, mailing lists, both online and offline.
