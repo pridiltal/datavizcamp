@@ -4,7 +4,7 @@ title: Contact
 ---
 ### Registration:
 
-To register for the event, please click on the following link: Registration Form
+To register for the event, please click on the following link: [Registration Form](https://forms.gle/c4BLe8enUAKJHuoJA)
 
 ### Contact Information:
 
