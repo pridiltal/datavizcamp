@@ -1,0 +1,47 @@
+baseURL: https://example.com/
+languageCode: en-us
+title: Data Visualization Camp - UOM Research Week 2023
+theme: mediumish-gohugo-theme
+summaryLength: 25
+copyright: Priyanga D. Talagala - All rights reserved
+enableEmoji: yes
+publishDir: docs
+params:
+  author:
+    description: Creator of this blog.
+    name: 
+    thumbnail: /images/author.png
+  description: the clean blog!
+  index:
+    alertbar: no
+    mdtext: |
+      Welcome to Data Visualization Camp, 
+      a part of UOM Research Week 2023, proudly 
+      organized by the University of Moratuwa. 
+      This website serves as your hub for all 
+      the essential materials and information
+      related to the Data Visualization Camp.
+          
+      ##### Licence
+      
+      ![](/images/license.png)
+      
+      This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+    picture: /images/author.png
+    subtitle: Data Visualization Camp
+    title: UOM Research Week 2023
+  logo: /images/logo.png
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 100
+    - identifier: about
+      name: About Me
+      url: /
+      weight: 200
+    - identifier: imprint
+      name: Imprint
+      url: /static/imprint
+      weight: 200
