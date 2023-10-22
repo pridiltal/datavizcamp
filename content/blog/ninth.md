@@ -4,8 +4,7 @@ date: "2018-10-07T11:40:14+02:00"
 image: /images/blog/9.jpg
 publishdate: "2018-10-07T11:40:14+02:00"
 tags:
-- interesting
-- drink
+- data visulization
 title: Picturing Research Landscapes
 ---
 
@@ -17,9 +16,10 @@ title: Picturing Research Landscapes
    
 2.	The Role of Data Visualization in Picturing the Advancing Knowledge 
 
-	 - Detailed presentation on the importance of data visualization in STEM and other domains, supported by relevant studies and examples. Expound on how data visualization can help to communicate complex scientific concepts effectively.
+   - Detailed presentation on the importance of data visualization in STEM and other domains, supported by relevant studies and examples. Expound on how data visualization can help to communicate complex scientific concepts effectively.
 	 
 3.	Using Literature Databases for Gap Analysis
+   
    - Hands-on workshop to guide participants on how to use literature databases–like PubMed, JSTOR, ScienceDirect, and Dimensions– for uncovering current research trends and finding areas that lack sufficient research.
    
    - Hands-on Exercise where Participants will work on datasets linked to their respective fields to identify potential research gaps. 

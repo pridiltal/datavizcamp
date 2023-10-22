@@ -4,7 +4,8 @@ date: "2018-10-07T11:39:29+02:00"
 image: /images/blog/7.jpg
 publishdate: "2018-10-07T11:39:29+02:00"
 tags:
-- interesting
+- data visulization
+- tools
 title: SmartPLS SEM Graph in Focus
 ---
 # Session 3: SmartPLS SEM Graph in Focus: Hypothesis Testing through Illustrative Designing

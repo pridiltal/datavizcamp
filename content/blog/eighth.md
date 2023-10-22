@@ -4,7 +4,8 @@ date: "2018-10-07T11:40:11+02:00"
 image: /images/blog/8.jpg
 publishdate: "2018-10-07T11:40:11+02:00"
 tags:
-- interesting
+- data visulization
+- tools
 title: Data Narratives with R
 ---
 # Session 2: An Open-source Odyssey: Crafting Data Narratives with R 

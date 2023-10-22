@@ -41,7 +41,12 @@ menu:
       name: Home
       url: /
       weight: 50
-    - identifier: imprint
-      name: Imprint
+    - identifier: Other
+      name: Other Events
       url: /static/imprint
       weight: 200
+    - identifier: Code
+      name: Code of Conduct
+      url: /static/code
+      weight: 300
+
