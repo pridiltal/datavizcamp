@@ -49,4 +49,8 @@ menu:
       name: Code of Conduct
       url: /static/code
       weight: 300
+    - identifier: Contact
+      name: Contact
+      url: /static/contact
+      weight: 400
 
