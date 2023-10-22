@@ -6,7 +6,28 @@ publishdate: "2018-10-07T11:40:14+02:00"
 tags:
 - interesting
 - drink
-title: Ninth
+title: Picturing Research Landscapes
 ---
-# This is another post
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi. 
+
+## Session 1: Picturing Research Landscapes: Unearthing Gaps through Data and Literature Visualization
+
+1.	Welcome and Introduction to the Series of Workshops 
+
+   - 	Brief on the objectives of the event, expected outcomes, and brief about the various sessions planned for the day.
+   
+2.	The Role of Data Visualization in Picturing the Advancing Knowledge 
+
+	 - Detailed presentation on the importance of data visualization in STEM and other domains, supported by relevant studies and examples. Expound on how data visualization can help to communicate complex scientific concepts effectively.
+	 
+3.	Using Literature Databases for Gap Analysis
+   - Hands-on workshop to guide participants on how to use literature databases–like PubMed, JSTOR, ScienceDirect, and Dimensions– for uncovering current research trends and finding areas that lack sufficient research.
+   
+   - Hands-on Exercise where Participants will work on datasets linked to their respective fields to identify potential research gaps. 
+   
+4.	Q&A and Discussion (30 minutes)
+
+   -	Open forum for participants to ask questions, share observations, and discuss challenges faced in the hands-on exercise.
+
+
+
+**The workshop materials will be accessible shortly.**

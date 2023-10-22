@@ -11,7 +11,7 @@ params:
     description: Creator of this blog.
     name: 
     thumbnail: /images/author.png
-  description: the clean blog!
+  description:  Workshop Camp
   index:
     alertbar: no
     mdtext: |
@@ -34,13 +34,13 @@ params:
 menu:
   main:
     - identifier: blog
-      name: Blog
+      name: Workshop Camp
       url: /blog
       weight: 100
-    - identifier: about
-      name: About Me
+    - identifier: Home
+      name: Home
       url: /
-      weight: 200
+      weight: 50
     - identifier: imprint
       name: Imprint
       url: /static/imprint

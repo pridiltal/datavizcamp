@@ -5,7 +5,29 @@ image: /images/blog/8.jpg
 publishdate: "2018-10-07T11:40:11+02:00"
 tags:
 - interesting
-title: Eighth
+title: Data Narratives with R
 ---
-# This is another post
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi. 
+# Session 2: An Open-source Odyssey: Crafting Data Narratives with R 
+
+1.	Introduction to Data Visualization Tools in R 
+
+  -	Brief comparison of data visualization tools available in R and an overview of when to use each.
+  
+2.	Workshop: Data Visualization Techniques in R 
+
+  -	Grammar of graphics
+  
+  - A practical walkthrough of creating basic to complex plots, charts, and graphs using RStudio. 
+  
+  - An interactive tutorial on using popular R libraries for data visualization.
+  
+3.	Hands-on Exercise: Creating Custom Visualizations (30 minutes)
+
+  - Participants practice creating their own data visualizations based on provided datasets.
+  
+4.	Q&A and Discussion 
+
+  -	Open forum for participants to ask questions, share observations, and discuss challenges faced in the hands-on exercise.
+
+
+**The workshop materials will be accessible shortly.**

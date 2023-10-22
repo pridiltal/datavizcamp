@@ -5,7 +5,27 @@ image: /images/blog/7.jpg
 publishdate: "2018-10-07T11:39:29+02:00"
 tags:
 - interesting
-title: Seventh
+title: SmartPLS SEM Graph in Focus
 ---
-# This is another post
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi. 
+# Session 3: SmartPLS SEM Graph in Focus: Hypothesis Testing through Illustrative Designing
+
+1.	Introduction to SmartPLS and Structural Equation Modeling 
+
+  - Overview of the function and importance of SmartPLS; a brief explanation of Structural Equation Modeling (SEM), and its application in various domains.
+  
+2.	Getting Started with SmartPLS
+
+  - Workshop taking the participants through the fundamentals of SmartPLS. This includes a session on creating models, importing data, measuring model quality, and more.
+  
+3.	Workshop: Testing Hypotheses with SmartPLS
+
+  - Workshop will guide participants through hypothesis testing using SmartPLS, explaining both the procedure and the interpretation of results.
+  
+  - Participants apply the knowledge they acquire by creating hypothesis tests and analyzing the results using SmartPLS.
+
+4.	Q&A and Discussion
+  
+  -  Opportunity to clarify doubts, discuss the case study, and open up for topic-related discussions.
+
+
+**The workshop materials will be accessible shortly.**
