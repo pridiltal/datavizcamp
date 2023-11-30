@@ -76,6 +76,12 @@ class: center, middle, inverse
 
 
 ---
+## Workshop Website: datavizcamp.netlify.app
+
+```{r   out.width = "40%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/QR.png")
+```
+---
 
 background-image:url('fig/tidyworkflow1.png')
 background-position: 50% 80%
