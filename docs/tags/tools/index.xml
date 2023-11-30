@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on Data Visualization Camp - UOM Research Week 2023</title>
+    <link>https://datavizcamp.netlify.app/tags/tools/</link>
+    <description>Recent content in tools on Data Visualization Camp - UOM Research Week 2023</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Priyanga D. Talagala - All rights reserved</copyright>
+    <lastBuildDate>Sun, 07 Oct 2018 11:40:11 +0200</lastBuildDate><atom:link href="https://datavizcamp.netlify.app/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Narratives with R</title>
+      <link>https://datavizcamp.netlify.app/blog/eighth/</link>
+      <pubDate>Sun, 07 Oct 2018 11:40:11 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/blog/eighth/</guid>
+      <description>Session 2: An Open-source Odyssey: Crafting Data Narratives with R Introduction to Data Visualization Tools in R Brief comparison of data visualization tools available in R and an overview of when to use each.</description>
+    </item>
+    
+    <item>
+      <title>SmartPLS SEM Graph in Focus</title>
+      <link>https://datavizcamp.netlify.app/blog/seventh/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:29 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/blog/seventh/</guid>
+      <description>Session 3: SmartPLS SEM Graph in Focus: Hypothesis Testing through Illustrative Designing Introduction to SmartPLS and Structural Equation Modeling Overview of the function and importance of SmartPLS; a brief explanation of Structural Equation Modeling (SEM), and its application in various domains.</description>
+    </item>
+    
+  </channel>
+</rss>

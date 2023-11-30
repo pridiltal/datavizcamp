@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Visualization Camp - UOM Research Week 2023</title>
+    <link>https://datavizcamp.netlify.app/</link>
+    <description>Recent content on Data Visualization Camp - UOM Research Week 2023</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Priyanga D. Talagala - All rights reserved</copyright>
+    <lastBuildDate>Sun, 07 Oct 2018 11:40:14 +0200</lastBuildDate><atom:link href="https://datavizcamp.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Picturing Research Landscapes</title>
+      <link>https://datavizcamp.netlify.app/blog/ninth/</link>
+      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/blog/ninth/</guid>
+      <description>Session 1: Picturing Research Landscapes: Unearthing Gaps through Data and Literature Visualization Welcome and Introduction to the Series of Workshops Brief on the objectives of the event, expected outcomes, and brief about the various sessions planned for the day.</description>
+    </item>
+    
+    <item>
+      <title>Data Narratives with R</title>
+      <link>https://datavizcamp.netlify.app/blog/eighth/</link>
+      <pubDate>Sun, 07 Oct 2018 11:40:11 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/blog/eighth/</guid>
+      <description>Session 2: An Open-source Odyssey: Crafting Data Narratives with R Introduction to Data Visualization Tools in R Brief comparison of data visualization tools available in R and an overview of when to use each.</description>
+    </item>
+    
+    <item>
+      <title>SmartPLS SEM Graph in Focus</title>
+      <link>https://datavizcamp.netlify.app/blog/seventh/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:29 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/blog/seventh/</guid>
+      <description>Session 3: SmartPLS SEM Graph in Focus: Hypothesis Testing through Illustrative Designing Introduction to SmartPLS and Structural Equation Modeling Overview of the function and importance of SmartPLS; a brief explanation of Structural Equation Modeling (SEM), and its application in various domains.</description>
+    </item>
+    
+    <item>
+      <title>Panel Discussion</title>
+      <link>https://datavizcamp.netlify.app/blog/sixth/</link>
+      <pubDate>Sun, 07 Oct 2018 11:38:29 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/blog/sixth/</guid>
+      <description>Data Visualization for Knowledge Creation: Navigating the Unchartered Landscape of the Future Discussions on the current landscape and prospects of data visualization in various fields, sharing insights from their respective fields.</description>
+    </item>
+    
+    <item>
+      <title>About This Workshop</title>
+      <link>https://datavizcamp.netlify.app/static/about/</link>
+      <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/static/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://datavizcamp.netlify.app/static/code/</link>
+      <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/static/code/</guid>
+      <description>This data visualization camp is dedicated to providing a harassment-free experience for everyone.
+This code of conduct applies to all the spaces, including online workshops, Twitter, mailing lists, both online and offline.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://datavizcamp.netlify.app/static/contact/</link>
+      <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/static/contact/</guid>
+      <description>Registration: To register for the event, please click on the following link: Registration Form
+Contact Information: For any further information or inquiries, please contact
+Dr. Nayani Gunawardhana</description>
+    </item>
+    
+    <item>
+      <title>Hotspots of Activity</title>
+      <link>https://datavizcamp.netlify.app/static/imprint/</link>
+      <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
+      
+      <guid>https://datavizcamp.netlify.app/static/imprint/</guid>
+      <description>Exhibition on tools for visualization and research productivity Note-taking tools Collaborative tools Version controlling tools Graphic tools Research management tools Additional details will be provided shortly.</description>
+    </item>
+    
+  </channel>
+</rss>
