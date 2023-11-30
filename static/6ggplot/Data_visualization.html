@@ -1207,7 +1207,25 @@ ggplot(penguins, aes(x=flipper_length_mm, y= body_mass_g, color = species)) +
 
 &lt;img src="Data_visualization_files/figure-html/unnamed-chunk-109-1.png" style="display: block; margin: auto;" /&gt;
 
+---
 
+class:  middle, center
+
+# 6. `esquisse` 
+
+&lt;img src="fig/42_esquisse.png" width="50%" style="display: block; margin: auto;" /&gt;
+---
+
+## Reverse Engineer Your Visualizations: From Plots to Code
+
+
+```r
+library("esquisse")
+
+esquisse::esquisser()
+# or with your data:
+esquisse::esquisser(palmerpenguins::penguins)
+```
 
 ---
 
