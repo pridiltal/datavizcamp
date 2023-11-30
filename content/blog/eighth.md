@@ -20,4 +20,6 @@ title: Data Narratives with R
 
 3. [Quick Guide : Getting Started with R: Installation, Project Setup, and Data Handling](/intro/RIntro.html)
 
-3. [Crafting Data Narratives with R](/6ggplot/Data_visualization.html)
+4. [Crafting Data Narratives with R](/6ggplot/Data_visualization.html)
+
+5. [Example Dataset](/data/titanic.csv)
