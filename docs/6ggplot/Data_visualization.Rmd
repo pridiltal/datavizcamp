@@ -1467,7 +1467,27 @@ ggplot(penguins, aes(x=flipper_length_mm, y= body_mass_g, color = species)) +
     facet_zoom(x = species == "Gentoo") 
 ```
 
+---
 
+class:  middle, center
+
+# 6. `esquisse` 
+
+```{r   out.width = "50%", echo = FALSE, fig.cap=''}
+knitr::include_graphics("fig/42_esquisse.png")
+```
+---
+
+## Reverse Engineer Your Visualizations: From Plots to Code
+
+```{r echo=TRUE, eval=FALSE}
+
+library("esquisse")
+
+esquisse::esquisser()
+# or with your data:
+esquisse::esquisser(palmerpenguins::penguins)
+```
 
 ---
 
