@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>LT2010 - Data Science for Transport and Logistics Systems</title>
+    <title>An Open-source Odyssey: Crafting Data Narratives with R</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Dr. Priyanga D. Talagala" />
+    <meta name="author" content="Data Visualization Camp - UoM Research Week 2023  Dr. Priyanga D. Talagala" />
+    <meta name="date" content="2023-01-12" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies.css" rel="stylesheet" />
@@ -23,16 +24,13 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# LT2010 - Data Science for Transport and Logistics Systems
-]
-.subtitle[
-## Data visualization with R
+# An Open-source Odyssey: Crafting Data Narratives with R
 ]
 .author[
-### Dr. Priyanga D. Talagala
+### Data Visualization Camp - UoM Research Week 2023 </br></br> <span style="color:#ffea00">Dr. Priyanga D. Talagala</span>
 ]
 .date[
-### <span style="color:#8dcefc">25/10/2023</span> </br></br><img src="fig/ggplot2.png" width="200" /> <img src="fig/15_palmerpenguins2.png" width="200" />
+### <span style="color:#ffea00">01/12/2023</span> </br></br><img src="fig/ggplot2.png" width="200" /> <img src="fig/15_palmerpenguins2.png" width="200" />
 ]
 
 ---
@@ -40,6 +38,34 @@ class: center, middle, inverse, title-slide
 
 
 
+
+class: center, middle, inverse
+
+
+
+## Welcome to the Data Visualization Camp - UoM Research Week 2023
+
+### An Open-source Odyssey: Crafting Data Narratives with R 
+--
+
+
+## Dr. Priyanga D. Talagala,
+
+&lt;span style="font-size:7mm; font-weight:bold"&gt; Senior Lecturer, Faculty of Information Technology, UoM&lt;/span&gt;
+
+&lt;span style="font-size:7mm; font-weight:bold"&gt;PhD in Statistics, Monash University, Australia&lt;/span&gt;
+
+&lt;span style="font-size:7mm; font-weight:bold"&gt;Email: priyangad@uom.lk&lt;/span&gt;
+
+--
+
+&lt;span style="font-size:7mm; font-weight:bold"&gt;Web: prital.netlify.app&lt;/span&gt;
+
+
+&lt;span style="font-size:7mm; font-weight:bold"&gt;My research focuses on statistical machine learning, data mining and time series and forecasting&lt;/span&gt;
+
+
+---
 
 background-image:url('fig/tidyworkflow1.png')
 background-position: 50% 80%
@@ -62,13 +88,14 @@ class: top, center
 # Tidy Workflow
 ---
 
-## The Datasaurus Dozen
+
 
 &lt;!--Data visualization and storytelling has always been one of the most important phases of any data science pipeline involving extracting meaningful insights from data, regardless of the complexity of the data or the project. Take a simple example of ‘The Datasaurus Dozen’ — twelve different datasets depicted in the following figure.
 
 https://towardsdatascience.com/a-comprehensive-guide-to-the-grammar-of-graphics-for-effective-visualization-of-multi-dimensional-1f92b4ed4149--&gt;
 
 .pull-left[
+## The Datasaurus Dozen
 
 ```r
 library(datasauRus)
@@ -99,15 +126,17 @@ head(datasaurus_dozen)
 
 ] .pull-right[
 
-&lt;img src="Data_visualization_files/figure-html/unnamed-chunk-3-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Data_visualization_files/figure-html/unnamed-chunk-3-1.png" width="150%" style="display: block; margin: auto;" /&gt;
 
 ]
 
 ---
 
-## The Datasaurus Dozen
+
 
 .pull-left[
+
+## The Datasaurus Dozen
 
 ```r
 library(datasauRus)

@@ -18,4 +18,6 @@ title: Data Narratives with R
 
 2. [Install R packages](https://r4fun.netlify.app/blog/topic2/)
 
+3. [Quick Guide : Getting Started with R: Installation, Project Setup, and Data Handling](/intro/RIntro.html)
+
 3. [Crafting Data Narratives with R](/6ggplot/6_Data_visualization.html)

@@ -49,12 +49,12 @@
   --link-color: #025859;
   --text-bold-color: #025859;
   --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #FFFFFF;
+  --inverse-text-color: black;
   --inverse-background-color: #048d8f;
   --inverse-header-color: #ffea00;
   --inverse-link-color: #025859;
-  --title-slide-background-color: #025b5c;
-  --title-slide-text-color: #ffea00;
+  --title-slide-background-color: #048d8f;
+  --title-slide-text-color: #4d0808;
   --header-background-color: #025859;
   --header-background-text-color: #ffea00;
   --base: #025859;

@@ -1,9 +1,8 @@
 ---
-title: "LT2010 - Data Science for Transport and Logistics Systems"
-subtitle: "Data visualization with R"
-author: "Dr. Priyanga D. Talagala"
+title: "An Open-source Odyssey: Crafting Data Narratives with R "
+author: Data Visualization Camp - UoM Research Week 2023 </br></br> <span style="color:#ffea00">Dr. Priyanga D. Talagala</span>
 #institute: "RStudio, PBC"
-date: <span style="color:#8dcefc">25/10/2023</span> </br></br>`r knitr::include_graphics("fig/ggplot2.png")` `r knitr::include_graphics("fig/15_palmerpenguins2.png")`
+date: <span style="color:#ffea00">01/12/2023</span> </br></br>`r knitr::include_graphics("fig/ggplot2.png")` `r knitr::include_graphics("fig/15_palmerpenguins2.png")`
 output:
   xaringan::moon_reader:
     #css: [default, kunoichi, chocolate-fonts]
@@ -37,16 +36,45 @@ library(patchwork)
 library(xaringanthemer)
 style_mono_accent(
    base_color = "#025859",
-   title_slide_background_color = "#025b5c",
+   title_slide_background_color = "#048d8f" ,
   inverse_background_color = "#048d8f",
+  inverse_text_color = "black",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Fira Mono"),
-  title_slide_text_color = "#ffea00",
+  title_slide_text_color = "#4d0808",
   inverse_header_color = "#ffea00",
    header_background_text_color = "#ffea00"
   )
 ```
+
+class: center, middle, inverse
+
+
+
+## Welcome to the Data Visualization Camp - UoM Research Week 2023
+
+### An Open-source Odyssey: Crafting Data Narratives with R 
+--
+
+
+## Dr. Priyanga D. Talagala,
+
+<span style="font-size:7mm; font-weight:bold"> Senior Lecturer, Faculty of Information Technology, UoM</span>
+
+<span style="font-size:7mm; font-weight:bold">PhD in Statistics, Monash University, Australia</span>
+
+<span style="font-size:7mm; font-weight:bold">Email: priyangad@uom.lk</span>
+
+--
+
+<span style="font-size:7mm; font-weight:bold">Web: prital.netlify.app</span>
+
+
+<span style="font-size:7mm; font-weight:bold">My research focuses on statistical machine learning, data mining and time series and forecasting</span>
+
+
+---
 
 background-image:url('fig/tidyworkflow1.png')
 background-position: 50% 80%
@@ -69,13 +97,14 @@ class: top, center
 # Tidy Workflow
 ---
 
-## The Datasaurus Dozen
+
 
 <!--Data visualization and storytelling has always been one of the most important phases of any data science pipeline involving extracting meaningful insights from data, regardless of the complexity of the data or the project. Take a simple example of ‘The Datasaurus Dozen’ — twelve different datasets depicted in the following figure.
 
 https://towardsdatascience.com/a-comprehensive-guide-to-the-grammar-of-graphics-for-effective-visualization-of-multi-dimensional-1f92b4ed4149-->
 
 .pull-left[
+## The Datasaurus Dozen
 ```{r echo=TRUE, fig.height=4, fig.width=4, cache=TRUE, eval=FALSE}
 library(datasauRus)
 library(ggplot2)
@@ -93,7 +122,7 @@ head(datasaurus_dozen)
 
 ] .pull-right[
 
-```{r echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="150%"}
 library(datasauRus)
 library(ggplot2)
 
@@ -101,6 +130,7 @@ p <- datasaurus_dozen |>
   ggplot(aes(x, y, color = dataset)) +
   geom_point(show.legend = FALSE) +
   theme(aspect.ratio = 1)+
+  theme(text = element_text(size=10))+
   facet_wrap(~dataset, ncol = 4)  
 
 print(p)
@@ -110,9 +140,11 @@ print(p)
 
 ---
 
-## The Datasaurus Dozen
+
 
 .pull-left[
+
+## The Datasaurus Dozen
 ```{r echo=TRUE, fig.height=4, fig.width=4, cache=TRUE, eval=FALSE}
 library(datasauRus)
 library(ggplot2)

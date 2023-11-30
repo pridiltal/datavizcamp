@@ -1,0 +1,90 @@
+---
+title: "Getting Started with R: Installation, Project Setup, and Data Handling"
+subtitle: "Data Visualization Camp - UoM Research Week 2023"
+author: "Dr. Priyanga Talagala"
+date: "2023-12-01"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Install R:
+
+Visit the [R Project website :https://cran.r-project.org/](https://cran.r-project.org/) and download the latest version of R for your operating system. Follow the installation instructions.
+
+## 2. Install R Studio:
+
+Visit the [R Studio website](https://posit.co/download/rstudio-desktop/) and download the free version of R Studio Desktop. Follow the installation instructions.
+
+## 3. Create an R Project:
+
+1. Open R Studio.
+
+2. Select File > New Project > New Directory.
+
+3. Choose "New Project."
+
+4. Enter a name for your project and choose the location where you want to create the project directory.
+
+5. Click "Create Project."
+
+6. R Studio will create a new project with an associated .Rproj file. This file stores project-specific settings, including the working directory.
+
+7. Now that you have an R project, the working directory is automatically set to the root directory of your project.
+
+## 4. Install a Package:
+
+You can install packages in R using the `install.packages()` function. 
+
+Let's install the tidyverse package, which includes many useful data manipulation and visualization packages.
+
+```{r eval=FALSE}
+install.packages("tidyverse")
+```
+
+## 5. Load a Package:
+
+Once installed, load the package using the `library()` function.
+
+```{r eval=FALSE}
+library(tidyverse)
+
+```
+
+## 6. Using an R Script File:
+
+Create a new R script file (.R) in R Studio by selecting File > New File > R Script. You can write and execute your R code in this script.
+
+
+## 7. Load a Dataset using here Package:
+
+The `here` package helps manage file paths, making it easier to locate your datasets even when you move your script or project. 
+
+Install the here package:
+
+```{r eval= FALSE}
+install.packages("here")
+
+```
+
+Now, use it in your script:
+
+```{r eval= FALSE}
+# Load the here package
+library(here)
+
+# Assuming your dataset is in a 'data' folder within your working directory
+data_path <- here("data", "your_dataset.csv")
+
+# Load the dataset using read.csv() or any other appropriate function
+your_dataset <- read.csv(data_path)
+
+```
+
+Replace "your_dataset.csv" with the actual name of your dataset file. 
+
+Remember to adapt the paths and file names based on your project structure.  The paths will be relative to your project directory.
+
+This approach ensures that your code remains portable, and you can share your project with others without worrying about absolute file paths.
