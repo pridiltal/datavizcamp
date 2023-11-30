@@ -12,6 +12,8 @@ title: Data Narratives with R
 
 **Introduction to Data Visualization Tools in R **
 
+Resource Person : [Dr. Priyanga D. Talagala](https://prital.netlify.app/)
+
 ## Workshop Materials
 
 1. [Install R and RStudio](https://r4fun.netlify.app/blog/topic1/)
