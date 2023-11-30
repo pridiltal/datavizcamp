@@ -31,4 +31,8 @@ title: Data Narratives with R
   -	Open forum for participants to ask questions, share observations, and discuss challenges faced in the hands-on exercise.
 
 
-**The workshop materials will be accessible shortly.**
+## Workshop Materials
+
+1. [Install R and RStudio](https://r4fun.netlify.app/blog/topic1/)
+
+2. [Install R packages](https://r4fun.netlify.app/blog/topic2/)
