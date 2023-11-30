@@ -36,6 +36,7 @@ library(patchwork)
 library(xaringanthemer)
 style_mono_accent(
    base_color = "#025859",
+     base_font_size = "21px",
    title_slide_background_color = "#048d8f" ,
   inverse_background_color = "#048d8f",
   inverse_text_color = "black",
@@ -58,7 +59,7 @@ class: center, middle, inverse
 --
 
 
-## Dr. Priyanga D. Talagala,
+<span style="font-size:8mm; font-weight:bold"> Dr. Priyanga D. Talagala</span>
 
 <span style="font-size:7mm; font-weight:bold"> Senior Lecturer, Faculty of Information Technology, UoM</span>
 
@@ -673,42 +674,21 @@ knitr::include_graphics("fig/21_statistics.png")
 ```
 
 ---
-- There are two ways to use statistical functions. 
-
-<!--https://medium.com/@zoldin/introduction-to-ggplot2-the-grammar-81d10e11d908-->
-
-.pull-left[
-**define `stat_*()` function and `geom` argument inside that function**
-
-```{r echo=TRUE, fig.height=3 }
-ggplot(penguins,
-       aes(x = flipper_length_mm,
-           y = body_mass_g)) +
-  geom_point() +
-  stat_summary( #<<
-    geom ="point", #<<
-    fun.y ="mean",
-    colour ="red")
+The statistic layer is responsible for calculating summary statistics for your data.
+```{r echo=TRUE, fig.height=5}
+ggplot(penguins, aes(x = species, fill = species)) +
+  geom_bar() +  #<<
+  geom_text(stat = "count", aes(label = ..count..), vjust = -0.5) #<<
 
 ```
+---
 
-].pull-right[
-**define `geom_*()` function and `stat` argument inside that function**
-
-```{r echo=TRUE, fig.height= 3}
-ggplot(penguins,
-       aes(x = flipper_length_mm,
-           y = body_mass_g)) +
-  geom_point() + 
-  geom_point( #<<
-    stat ="summary", #<<
-    fun.y ="mean",
-    colour ="red")
-
+The statistic layer is responsible for calculating summary statistics for your data.
+```{r echo=TRUE, fig.height=5}
+ggplot(penguins, aes(x = species, fill = species)) +
+  geom_bar(stat = "count") + # Default Setting #<<
+  geom_text(stat = "count", aes(label = ..count..), vjust = -0.5) 
 ```
-
-]
-
 ---
 
 Statistics  | Geometries
@@ -716,6 +696,7 @@ Statistics  | Geometries
 `stat_count` | `geom_bar`
 `stat_boxplot` | `geom_boxplot`
 `stat_identity` | `geom_col`
+`stat_identity` | `geom_point`
 `stat_bin`  | `geom_bar`, `geom_histogram`
 `stat_density` | `geom_density`
 
@@ -744,6 +725,8 @@ knitr::include_graphics("fig/25_scale.png")
 
 ## Scales
 
+The scale layer customizes how the values of the mapped variables are represented visually.
+
 ```{r echo=TRUE, eval = FALSE}
 
 ggplot(penguins) +
@@ -753,7 +736,7 @@ ggplot(penguins) +
                   shape = species)) #<<
 ```
 
-```{r fig.height=5, message=FALSE, warning=FALSE, results='hide'}
+```{r fig.height=4, message=FALSE, warning=FALSE, results='hide'}
 
 ggplot(penguins) +
   geom_point( aes(x = flipper_length_mm,
@@ -958,6 +941,8 @@ class: middle, center
 knitr::include_graphics("fig/28_facets.png")
 ```
 ---
+Facet layer allows you to create multiple plots, each showing a subset of your data.
+
 ## `facet_wrap()`
 
 ```{r echo=TRUE, eval = FALSE}
@@ -971,7 +956,7 @@ ggplot(penguins) +
 
 <!-- help page # Use vars() to supply faceting variables:-->
 
-```{r fig.height=5, message=FALSE, warning=FALSE, results='hide'}
+```{r fig.height=4, message=FALSE, warning=FALSE, results='hide'}
 
 ggplot(penguins) +
   geom_point(aes(
@@ -1043,6 +1028,8 @@ knitr::include_graphics("fig/29_coord.png")
 
 ---
 ## Coordinates
+
+How the plot's coordinate system is structured.
 
 ```{r echo=TRUE, eval = FALSE}
 
@@ -1356,24 +1343,11 @@ p1 ## a ggplot object
 plotly::ggplotly(p1)
 ```
 
----
-class:  middle, center
-
-# 3. `GGally` 
-
-
----
-
-```{r echo=TRUE, fig.height=6, fig.asp=1}
-GGally::ggpairs(penguins[, 1:5], aes(color = species, fill = species))+
-  scale_color_viridis_d() +
-  scale_fill_viridis_d()
-```
 
 ---
 class:  middle, center
 
-# 4. `gganimate` 
+# 3. `gganimate` 
 
 ```{r   out.width = "40%", echo = FALSE, fig.cap=''}
 knitr::include_graphics("fig/36_gganimate.png")
@@ -1426,7 +1400,7 @@ p
 
 class:  middle, center
 
-# 5. `ggrepel` 
+# 4. `ggrepel` 
 
 ```{r   out.width = "40%", echo = FALSE, fig.cap=''}
 knitr::include_graphics("fig/37_ggrepel.png")
@@ -1460,7 +1434,7 @@ ggplot(penguins, aes(x=flipper_length_mm, y= body_mass_g))+
 ---
 class:  middle, center
 
-# 6. `ggforce` 
+# 5. `ggforce` 
 
 ```{r   out.width = "40%", echo = FALSE, fig.cap=''}
 knitr::include_graphics("fig/38_ggforce.jpeg")
